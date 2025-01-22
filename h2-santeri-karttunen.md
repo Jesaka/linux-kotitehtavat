@@ -29,6 +29,7 @@
 
 `rm -r HAKEMISTO` poistaa hakemiston ja sen sisällön.
 
+
 ### Etäyhteydet SSH:n avulla:
 
 
@@ -36,12 +37,14 @@
 
 `scp -r HAKEMISTO` käyttäjä@esimerkki.com:public_html/ kopioi hakemiston etäkoneelle.
 
+
 ### Apu ja ohjeet:
 
 
 `man` komento näyttää komennon manuaalisivun.
 
 komento `--help` tai komento -h antaa lyhyen ohjeen komennosta.
+
 
 Historia ja automaattinen täydennys:
 
@@ -51,6 +54,7 @@ Historia ja automaattinen täydennys:
 `Nuolinäppäimet` selaavat komentohistoriaa.
 
 `history` näyttää aiemmin suoritetut komennot.
+
 
 ### Tärkeitä hakemistoja:
 
