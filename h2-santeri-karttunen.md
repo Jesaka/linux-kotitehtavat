@@ -148,11 +148,14 @@ Komento jota käytin sudo apt install `sudo apt install sl`
 
 <img width="477" alt="image" src="https://github.com/user-attachments/assets/5928693e-ca2f-4604-ab08-cdefa9118b24" />
 
-Ja kun ajoin terminaaliin komennon sl (tai kun typotan `ls` seuraavalla kerralla) puksuttaa ahkera juna paikalle.
+Ja kun ajoin terminaaliin komennon `sl` (tai kun typotan `ls` seuraavalla kerralla) puksuttaa ahkera juna paikalle.
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/0ccff00d-dac8-4d7f-a521-fd50fc7c1df8" />
 
 
+### Huomioita
+Ohjelmien asennuksessa itsessään ei ollut ongelmia, suurin osa ajasta meni ohjelmien etsimiseen verkosta.
+Tehtävän (b tekeminen päättyi 23.1.2025 00:39 
 
 
 
