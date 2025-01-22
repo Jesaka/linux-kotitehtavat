@@ -131,6 +131,7 @@ https://www.zdnet.com/article/5-linux-terminal-apps-that-are-better-than-your-de
 ### Toinen ohjelma Cmatrix 00:25 
 
 Toinen ohjelma, jonka asensin oli Cmatrix, jonka löysin sivulta. https://www.makeuseof.com/fun-linux-command-line-programs/
+
 Komento jota käytin oli `sudo apt install cmatrix`
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/16a87a51-fcd2-458e-aa20-9b8b85e5591f" />
@@ -138,6 +139,20 @@ Komento jota käytin oli `sudo apt install cmatrix`
 En todella tiedä mitä hyötyä tästä on, ehkä sitä voi käyttää näytönsäästäjänä
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/d5f0d535-8093-487b-8bb7-aea8cb1b95e3" />
+
+### Kolmas ohjelma steam logomotive
+
+Kolmas ohjelma, jonka asensin oli jo kursilla vitsiksi muodostunut steam logomotive. (Opettaja ilmeisesti inhoaa tätä ohjelmaa ja hänen poikansa asentaa sen jokaiselle koneelle. Kiusa se on pienikin kiusa) 
+
+Komento jota käytin sudo apt install `sudo apt install sl`
+
+<img width="477" alt="image" src="https://github.com/user-attachments/assets/5928693e-ca2f-4604-ab08-cdefa9118b24" />
+
+Ja kun ajoin terminaaliin komennon sl (tai kun typotan `ls` seuraavalla kerralla) puksuttaa ahkera juna paikalle.
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/0ccff00d-dac8-4d7f-a521-fd50fc7c1df8" />
+
+
 
 
 
