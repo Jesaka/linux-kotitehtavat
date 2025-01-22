@@ -71,4 +71,9 @@ Historia ja automaattinen täydennys:
 
 Sivulla voisi olla vielä artikkeli johon on listattu TOP 10 **You need this** linux ohjelmaa asennettavaksi, jotka helpottavat, on hyvä tietää, tarvitsee päivittäin tms.
 
-https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+https://terokarvinen.com/2020/command-line-basics-revisited/
+
+
+
+## a) Micro. Asenna micro-editori.
+
