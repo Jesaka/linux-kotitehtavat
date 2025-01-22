@@ -140,7 +140,7 @@ En todella tiedä mitä hyötyä tästä on, ehkä sitä voi käyttää näytön
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/d5f0d535-8093-487b-8bb7-aea8cb1b95e3" />
 
-### Kolmas ohjelma steam logomotive
+### Kolmas ohjelma steam logomotive 00:32
 
 Kolmas ohjelma, jonka asensin oli jo kursilla vitsiksi muodostunut steam logomotive. (Opettaja ilmeisesti inhoaa tätä ohjelmaa ja hänen poikansa asentaa sen jokaiselle koneelle. Kiusa se on pienikin kiusa) 
 
