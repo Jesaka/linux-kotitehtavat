@@ -122,8 +122,26 @@ Ensimmäinen ohjelma, jonka asensin oli edellisellä tunnilla mainittu Guake. An
 
 Lopputuloksena on terminaali joka aukeaa pikanäppäimellä fn + f12
 
-Lisää tietoa guakesta artikkelista, jonka löysin kun googlasin mitä ohjelmia haluan tehtävässä esitellä.
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/5089f6d9-575b-445e-9b62-acb51835cf30" />
+
+Lisää tietoa Guakesta artikkelista, jonka löysin kun googlasin mitä ohjelmia haluan tehtävässä esitellä.
+
 https://www.zdnet.com/article/5-linux-terminal-apps-that-are-better-than-your-default-and-free-to-install/
+
+### Toinen ohjelma Cmatrix 00:25 
+
+Toinen ohjelma, jonka asensin oli Cmatrix, jonka löysin sivulta. https://www.makeuseof.com/fun-linux-command-line-programs/
+Komento jota käytin oli `sudo apt install cmatrix`
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/16a87a51-fcd2-458e-aa20-9b8b85e5591f" />
+
+En todella tiedä mitä hyötyä tästä on, ehkä sitä voi käyttää näytönsäästäjänä
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/d5f0d535-8093-487b-8bb7-aea8cb1b95e3" />
+
+
+
+
 
 
 
