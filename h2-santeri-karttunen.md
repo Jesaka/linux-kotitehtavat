@@ -1,5 +1,5 @@
 # H2 Komentaja Pingviini 22.1.2025 23:00
-## X Lue ja tiivistä Karvinen 2020: Command line basics revisited
+## X Lue ja tiivistä Karvinen 2020: Command line basics revisited ja lisää oma kysymys tai idea
 
 ### Liikkuminen ja ympäristön tarkastelu:
 
@@ -66,5 +66,9 @@ Historia ja automaattinen täydennys:
 `/var/` sisältää muuttuvat tiedot, kuten lokit.
 
 `/usr/` sisältää käyttäjän asentamat ohjelmat ja kirjastot.
+
+### Oma idea
+
+Sivulla voisi olla vielä artikkeli johon on listattu TOP 10 **You need this** linux ohjelmaa asennettavaksi, jotka helpottavat, on hyvä tietää, tarvitsee päivittäin tms.
 
 https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
