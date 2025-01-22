@@ -109,9 +109,21 @@ Tämän jälkeen ajoin terminaaliin komennon `sudo apt-get install micro`. Käyt
 ### Huomioita: 
 Tehtävä a) sujui helposti, aikaa kului suhteellisen paljon, koska halusin kuvakaappauksista siistin näköisiä ja helposti ymmärettäviä 
 
-Tehtävän a) tekeminen päättyy 23:53 
+Tehtävän a) tekeminen päättyy 23:53
 
 
+## b) Apt. Asenna kolme itsellesi uutta komentoriviohjelmaa. 22.1.2025 23:55 
+
+### Ensimmäinen ohjelma Guake 
+
+Ensimmäinen ohjelma, jonka asensin oli edellisellä tunnilla mainittu Guake. Annoin päätteelle komennon `sudo apt-get install guake`. Ohjelma käynnistyi antamalla terminaaliin komento `guake`
+
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/8bd60044-6a5f-4b33-b5dd-372a26acda5b" />
+
+Lopputuloksena on terminaali joka aukeaa pikanäppäimellä fn + f12
+
+Lisää tietoa guakesta artikkelista, jonka löysin kun googlasin mitä ohjelmia haluan tehtävässä esitellä.
+https://www.zdnet.com/article/5-linux-terminal-apps-that-are-better-than-your-default-and-free-to-install/
 
 
 
