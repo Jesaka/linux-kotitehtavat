@@ -192,8 +192,20 @@ Rootin alla löytyi myös loput kansiot, joita käsittelen tässä tehtävässä
 
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/ac34dfda-6020-4cc4-bed9-7aafc632fcb9" />
 
-Esimerkkinä komennolla `nano` timezone pääsin tarkastelemaan tätä
+Esimerkkinä komennolla `nano timezone` pääsin tarkastelemaan tätä
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/d873b660-9947-495b-a8c8-37f30b820755" />
+
+/media kansion alta löytyi köyttäjäni oma kansio, joka on tyhjä koska en ole tallentanut mediaa koneella 
+
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/dbb37424-37e2-46cb-bd45-8832bf3995e2" />
+
+/var/log kansion sisältö näytti tältä, suurin osa lokeista oli nanolla avattaessa tyhjiä. Alemmassa kuvassa esimerkki vboxadd-setup.log
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/ea043f8b-8b9b-4402-8fec-f07dbb4e20ff" />
+
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/b9f1e73b-c5e3-4138-9859-64141b701fef" />
+
+
 
 
