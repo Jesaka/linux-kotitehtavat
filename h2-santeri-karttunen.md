@@ -7,6 +7,8 @@
 Tämän raportin tarkoituksena on vastattu Linux-palvelimet kurssin kotitehtävään h2 (Linkki kappaleen lopussa)'. Alkuun on tiivistetty opettajan materiaaleista Linuxin peruskomennot, joita suurinta osaa käytän harjoituksen tekemiseen. Raportin tarkoituksena on myös esittää Linuxin komentopääteen kometojen käyttöä ja havainnollistaa niiden toiminnallisuuksia.
 https://terokarvinen.com/linux-palvelimet/
 
+Tehtävien tekeminen sujui suhteellisen helposti käyttänällä komentopäätettä ja kysymällä ohjausta tekoälyltä joissain paikoissa. Viimeisessä tehtävässä törmäsin ongelmaan micro editorin pluginin asentamisessa. En lähtenyt ratkomaan ongelmaa kovin pitkälle, koska tehtävä oli vapaaehtoinen. 
+
 
 ## X Lue ja tiivistä Karvinen 2020: Command line basics revisited ja lisää oma kysymys tai idea
 
@@ -265,7 +267,32 @@ VirtualBox-hiiri ja -näppäimistö.
 
 Yhteenvetona: kyseessä on perusvirtuaalikone, jossa on virtuaalinen prosessori, muisti, tallennustila ja verkkoyhteydet.
 
-(f tekeminen päättyy 23.1.2025 11:39 
+(f tekeminen päättyy 23.1.2025 11:42 
+
+## g) Vapaaehtoinen: Valitse muutama rivi lokeista. Tulkitse ja analysoi. 23.1.2025 11:43 
+
+tässä tehtävässä sain muistutuksen kirjoitusvirheestä, jonka tein. Kuvassa näkyy lokitieto kun komennolla `purge` yritän poistaa "ishw" ohjelman. Tein kirjoitusvirheen kun yritin asentaa lshw, joka näkyy ajettavan lokissa purgen jälkeen. 
+
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/e3a62db6-1c25-4d43-b5b5-5c1916699275" />
+
+g) tekeminen päättyy 23.1 11:46 
+
+## h) Vapaaehtoinen: Asenna jokin plugin micro-editorille ja kokeile sitä. Vaikkapa palettero, cheat tai runit. 23.1.2025 
+
+Asensin cheatin Microlle kun editori aukeaa painoin ctrl+E ja annoin komennon `plugin install cheat`
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/d9ecf309-c2d4-435d-abed-9825bcaac893" />
+
+Kun koitin ajaa pluginia, jostain syystä se ei toiminut.
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/1e26aa16-406f-4b21-991d-e29c56edf149" />
+
+Kokeilin uudelleen asentamista, ja lokien tarkistamista, mutta en löytänyt mitään virhettä. Jostain syystä uudelleen asennuksessa sain ilmoituksen että cheat on jo asennettu (vaikka olin poistanut sen juuri äsken), mutta sitä ei ole päivitetty. Päivittämiskomento ei kuitenkaan anna päivittää pluginia, koska mitään ei ole päivitettävänä. 
+
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/42594deb-d602-4d0d-97ed-8e42dc13a9f8" />
+
+Kysytään tunnilla opettajalta. 
+
+h) tekeminen päättyy 23.1.2025 12:01 
 
 
 
