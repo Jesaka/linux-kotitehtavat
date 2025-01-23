@@ -200,12 +200,71 @@ Esimerkkinä komennolla `nano timezone` pääsin tarkastelemaan tätä
 
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/dbb37424-37e2-46cb-bd45-8832bf3995e2" />
 
-/var/log kansion sisältö näytti tältä, suurin osa lokeista oli nanolla avattaessa tyhjiä. Alemmassa kuvassa esimerkki vboxadd-setup.log
+/var/log kansion sisältö näytti tältä, suurin osa lokeista oli nanolla avattaessa tyhjiä. oikeanpuoleisessa kuvassa esimerkki vboxadd-setup.log
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/ea043f8b-8b9b-4402-8fec-f07dbb4e20ff" />
 
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/b9f1e73b-c5e3-4138-9859-64141b701fef" />
 
+c)tekeminen päättyi 23.1.2025 11:03
+
+
+## d) The Friendly M. Näytä 2-3 kuvaavaa esimerkkiä grep-komennon käytöstä. Ohjeita löytyy 'man grep' ja tietysti verkosta. 23.1.2025 11.04
+
+### Esimerkki 1 
+
+Tässä esimerkissä käytin komentoa `grep -r ".txt"`. Oletukseni oli, että grep löytäisi tiedoston, jonka nimi on "a-tehtava.txt", mutta komento ilmoittikin toisen tiedoston "a-tehtava" sisältävän tekstipätkän ".txt" ja tulosti rivin jolla kyseien haku esiintyi.
+
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/60aa3453-ac9e-454d-9d13-57352f1723af" />
+
+### Esimerkki 2 
+Tässä esimerkissä käytin komentoa grep `--color=always "skipping" fontconfig.log`
+Komennon tarkoitus oli korostaa värillä tietty sana fontconfig.log tiedostosta. Komento toimi juuri kuin halusin. 
+
+(d tekeminen päättyi 23.1.2025 11:26 
+
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/1ee0a63d-ebf1-4a65-92d8-2fbf7aed3586" />
+
+## e) Pipe. Näytä esimerkki putkista (pipes, "|"). 23.1.2025 11:27 
+
+Putkittaminen oli vaikea ymmärtää tunnilla, mutta ChatGPT selitti mitä se tarkoittaa hyvin yksinkertaisesti "Linuxin putkia (|) käytetään yhdistämään komentoja siten, että yhden komennon tuloste ohjataan seuraavan komennon syötteeksi."
+Tässä esimerkissä putkitin äsköisen grep komennon syötteeksi komennolle `wc -1`, joka laskee kuinka monta riviä grep löysi
+
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/56c85f9b-f8f4-4115-b89b-b5c362fcee40" />
+
+e) tekeminen päättyi 23.1.2025 11:30 
+
+## f) Rauta. Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’). Asenna lshw tarvittaessa. Selitä ja analysoi listaus. 23.1.2025 11:32 
+
+Itse en ymmärrä tietokoneiden raudasta kovin paljon, joten pyysin ChatGPT:tä tekemään tiivistelmän tärkeimmistä osista promptilla "selitä ja analysoi lyhyesti komennolla lshw tekemäni listaus (listaus)".
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/6b12afb4-a80c-448d-aa57-7420e70a9268" />
+
+Virtuaalinen ympäristö:
+Järjestelmä ajetaan VirtualBox-virtuaalikoneessa.
+
+Suoritin:
+Intel Core i5-8365U @ 1.60GHz (virtuaalinen).
+
+Muisti:
+4 GiB RAM.
+
+Tallennus:
+64 GB virtuaalinen kiintolevy (EXT4-pääosio ja Linux swap).
+CD-ROM-asema käytössä.
+
+Näyttö:
+SVGA II Adapter (virtuaalinen näyttöohjain).
+
+Verkko:
+82540EM Gigabit Ethernet Controller (virtuaalinen verkkokortti).
+
+Ääni ja syöttölaitteet:
+AC'97 Audio Controller (virtuaalinen äänikortti).
+VirtualBox-hiiri ja -näppäimistö.
+
+Yhteenvetona: kyseessä on perusvirtuaalikone, jossa on virtuaalinen prosessori, muisti, tallennustila ja verkkoyhteydet.
+
+(f tekeminen päättyy 23.1.2025 11:39 
 
 
 
