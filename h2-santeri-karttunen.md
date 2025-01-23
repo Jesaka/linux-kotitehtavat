@@ -163,7 +163,7 @@ Tehtävän (b tekeminen päättyi 23.1.2025 00:39
 
 ### /home/santeri
 
-Oletusasetuksena terminaali avasi tämän kansion joka kerta käynnistäessä. Jos halusin takaisin kyseiseen kansioon, pelkkä komento `cd` palauttaa tänne. Kuvassa siirryn kansioihin **Documents** ja sen sisällä kansioon **h2** ja palautan itseni takaisin **/home/santeri/** kansioon. `pwd` Näyttää missä kansiossa olen ja `ls` listaa mitä kansioita tai tiedostoja kansion sisällä om. 
+Oletusasetuksena terminaali avasi tämän kansion joka kerta käynnistäessä. Jos halusin takaisin kyseiseen kansioon, pelkkä komento `cd` palauttaa tänne. Kuvassa siirryn kansioihin **Documents** ja sen sisällä kansioon **h2** ja palautan itseni takaisin **/home/santeri/** kansioon. `pwd` Näyttää missä kansiossa olen ja `ls` listaa mitä kansioita tai tiedostoja kansion sisällä om. Täältä löytyy kaikki mitä olen itse käyttäjällä luonut
 
 <img width="476" alt="image" src="https://github.com/user-attachments/assets/b8077cd3-0716-4498-9e5f-9598b8a41fbf" />
 
@@ -172,6 +172,7 @@ Oletusasetuksena terminaali avasi tämän kansion joka kerta käynnistäessä. J
 
 Home kansioon pääsin antamalla komennon `cd`, jolla siis varmistetaan että aloitan kansiosta /home/santeri `pwd` näyttää, kyllä kansio todella on se missä haluan olla.
 Tämän jälkeen annoin komennon `cd ..`. Jolla "peruutan yhden kansion taaksepäin". Home on rakenteessa edellinen kansio, joten päädyin sinne.
+Home kansiosta löytyy kaikki käyttäjien kansiot, minun näyttää suppealta, koska koneessa on vain oma käyttäjäni.
 
 <img width="478" alt="image" src="https://github.com/user-attachments/assets/44f68dc5-e970-4bb6-a53c-6c0bbdf460f1" />
 
@@ -180,9 +181,19 @@ Tämän jälkeen annoin komennon `cd ..`. Jolla "peruutan yhden kansion taaksep�
 
 ### / Eli root directory
 
-Samalla logiikalla `cd ..` pakitti kansioon **/** eli root.
+Samalla logiikalla `cd ..` pakitti kansioon **/** eli root. Tämän alta löytyy kaikki järjestelmässä oleva tieto.
 
 <img width="475" alt="image" src="https://github.com/user-attachments/assets/c41f5632-e052-41d4-b4f5-836b3d467cad" />
 
 
-Rootin alla löytyi myös loput kansiot, joita käsittelen tässä tehtävässä eli **/etc**, **/media** ja **/var/log**
+Rootin alla löytyi myös loput kansiot, joita käsittelen tässä tehtävässä eli **/etc**, **/media** ja **/var/log**.
+
+/etc alta löytyi asetuksest, jotka on ihmiselle luettavassa muodossa 
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/ac34dfda-6020-4cc4-bed9-7aafc632fcb9" />
+
+Esimerkkinä komennolla `nano` timezone pääsin tarkastelemaan tätä
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/d873b660-9947-495b-a8c8-37f30b820755" />
+
+
