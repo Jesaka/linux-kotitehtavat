@@ -87,7 +87,7 @@ Sivulla voisi olla vielä artikkeli johon on listattu TOP 10 **You need this** l
 https://terokarvinen.com/2020/command-line-basics-revisited/
 
 ## Lähtötilanne 
-Fyysinen tietokone on sama kuin raportin https://github.com/Jesaka/linux-kotitehtavat/blob/main/h1-santeri-karttunen2.md lähtötilanteessa ja virtuaalikone one raportissa OracleVMVirtualboxiin asennettu Debian 12 XFC (Kuvassa speksit) 
+Fyysinen tietokone on sama kuin raportin https://github.com/Jesaka/linux-kotitehtavat/blob/main/h1-santeri-karttunen2.md lähtötilanteessa ja virtuaalikone on raportissa OracleVMVirtualboxiin asennettu Debian 12 XFC (Kuvassa speksit) 
 
 <img width="365" alt="image" src="https://github.com/user-attachments/assets/85e48773-bb98-4325-a58c-2a4e1da6dfdf" />
 
