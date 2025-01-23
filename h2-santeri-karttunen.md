@@ -237,6 +237,7 @@ e) tekeminen päättyi 23.1.2025 11:30
 ## f) Rauta. Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’). Asenna lshw tarvittaessa. Selitä ja analysoi listaus. 23.1.2025 11:32 
 
 Itse en ymmärrä tietokoneiden raudasta kovin paljon, joten pyysin ChatGPT:tä tekemään tiivistelmän tärkeimmistä osista promptilla "selitä ja analysoi lyhyesti komennolla lshw tekemäni listaus (listaus)".
+
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/6b12afb4-a80c-448d-aa57-7420e70a9268" />
 
 Virtuaalinen ympäristö:
