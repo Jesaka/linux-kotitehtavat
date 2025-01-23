@@ -76,6 +76,8 @@ Historia ja automaattinen täydennys:
 
 `/usr/` sisältää käyttäjän asentamat ohjelmat ja kirjastot.
 
+Huomio, tämä tiivistelmä on tehty käyttäen ChatGPT4.0 kielimallia promptilla: "Tee tiivistelmä tämän sivun (https://terokarvinen.com/2020/command-line-basics-revisited/) jokaisesta artikkelista"
+
 ### Oma idea
 
 Sivulla voisi olla vielä artikkeli johon on listattu TOP 10 **You need this** linux ohjelmaa asennettavaksi, jotka helpottavat, on hyvä tietää, tarvitsee päivittäin tms.
@@ -154,12 +156,33 @@ Ja kun ajoin terminaaliin komennon `sl` (tai kun typotan `ls` seuraavalla kerral
 
 
 ### Huomioita
-Ohjelmien asennuksessa itsessään ei ollut ongelmia, suurin osa ajasta meni ohjelmien etsimiseen verkosta.
+Ohjelmien asennuksessa itsessään ei ollut ongelmia, suurin osa ajasta meni ohjelmien etsimiseen verkosta. Jos ohjelmat olisi halunnut asentaa kaikki kolme kerralla, komento olisi ollu `sudo apt-get install cmatrix sl guake`.
 Tehtävän (b tekeminen päättyi 23.1.2025 00:39 
 
+## c) FHS. Esittele kansiot, jotka on listattu "Command Line Basics Revisited" kappaleessa "Important directories". 23.1.2023 10:18
+
+### /home/santeri
+
+Oletusasetuksena terminaali avasi tämän kansion joka kerta käynnistäessä. Jos halusin takaisin kyseiseen kansioon, pelkkä komento `cd` palauttaa tänne. Kuvassa siirryn kansioihin **Documents** ja sen sisällä kansioon **h2** ja palautan itseni takaisin **/home/santeri/** kansioon. `pwd` Näyttää missä kansiossa olen ja `ls` listaa mitä kansioita tai tiedostoja kansion sisällä om. 
+
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/b8077cd3-0716-4498-9e5f-9598b8a41fbf" />
 
 
+### /home 
+
+Home kansioon pääsin antamalla komennon `cd`, jolla siis varmistetaan että aloitan kansiosta /home/santeri `pwd` näyttää, kyllä kansio todella on se missä haluan olla.
+Tämän jälkeen annoin komennon `cd ..`. Jolla "peruutan yhden kansion taaksepäin". Home on rakenteessa edellinen kansio, joten päädyin sinne.
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/44f68dc5-e970-4bb6-a53c-6c0bbdf460f1" />
+
+(HUOM: cd .. ei anna edellistä kansiota jota olet käsitellyt vaan peruuttaa taaksepäin puurakenteessa) 
 
 
+### / Eli root directory
+
+Samalla logiikalla `cd ..` pakitti kansioon **/** eli root.
+
+<img width="475" alt="image" src="https://github.com/user-attachments/assets/c41f5632-e052-41d4-b4f5-836b3d467cad" />
 
 
+Rootin alla löytyi myös loput kansiot, joita käsittelen tässä tehtävässä eli **/etc**, **/media** ja **/var/log**
