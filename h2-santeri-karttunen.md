@@ -7,7 +7,7 @@
 Tämän raportin tarkoituksena on vastattu Linux-palvelimet kurssin kotitehtävään h2 (Linkki kappaleen lopussa)'. Alkuun on tiivistetty opettajan materiaaleista Linuxin peruskomennot, joita suurinta osaa käytän harjoituksen tekemiseen. Raportin tarkoituksena on myös esittää Linuxin komentopääteen kometojen käyttöä ja havainnollistaa niiden toiminnallisuuksia.
 https://terokarvinen.com/linux-palvelimet/
 
-Tehtävien tekeminen sujui suhteellisen helposti käyttänällä komentopäätettä ja kysymällä ohjausta tekoälyltä joissain paikoissa. Viimeisessä tehtävässä törmäsin ongelmaan micro editorin pluginin asentamisessa. En lähtenyt ratkomaan ongelmaa kovin pitkälle, koska tehtävä oli vapaaehtoinen. 
+Tehtävien tekeminen sujui suhteellisen helposti käyttänällä komentopäätettä ja kysymällä ohjausta tekoälyltä joissain paikoissa. Viimeisessä tehtävässä törmäsin ongelmaan micro editorin pluginin asentamisessa. En lähtenyt ratkomaan ongelmaa kovin pitkälle, koska tehtävä oli vapaaehtoinen. Palaan ongelmaan jos löydän ristiinarvioinnista ratkaisun. 
 
 
 ## X Lue ja tiivistä Karvinen 2020: Command line basics revisited ja lisää oma kysymys tai idea
@@ -293,6 +293,8 @@ Kokeilin uudelleen asentamista, ja lokien tarkistamista, mutta en löytänyt mit
 Kysytään tunnilla opettajalta. 
 
 h) tekeminen päättyy 23.1.2025 12:01 
+
+## Raportti valmis 23.1.2025 12:05 
 
 
 
