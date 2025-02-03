@@ -63,8 +63,23 @@ tadaa!
 <img width="347" alt="image" src="https://github.com/user-attachments/assets/2c0254b9-7aa4-4911-8ead-38ee9aa7fb92" />
 
 
+### e) Tee validi HTML5 sivu. 12:05 
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/b8ddb10f-d41d-40e1-812b-701a4fdb78a9" />
+
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/56c5c8a0-4aee-4a37-9d7b-d7631962b228" />
 
 
+
+### f) Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat. 12:20
+
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/f8e4785a-5d30-4cc5-a758-9d82cc87022b" />
+
+Tässä ChatGPT:n antama esimerkkiselitys (Ei samasta datasta vaan tekoälyn omasta esimerkkivastauksesta.
+
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/5944ac41-90d5-48bc-aa02-dbe04de7e815" />
+
+Raportti päättyy 3.2.2025  12:23 
 
 ## Lähteitä 
 https://stackoverflow.com/questions/18392741/apache2-ah01630-client-denied-by-server-configuration
