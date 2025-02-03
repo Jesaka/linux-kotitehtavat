@@ -24,10 +24,15 @@ Apache2 on asennettuna ja ensimmäinen sivu konfiguroitu oppitunnintunnin aikana
 
 ### b) Etsi lokista rivit, jotka syntyvät, kun lataat omalta palvelimeltasi yhden sivun. Analysoi rivit (eli selitä yksityiskohtaisesti jokainen kohta ja numero, etsi tarvittaessa lähteitä). 11:16 
 
-Access log ei päivitynyt apachessa jostain syystä, mutta other_vhost_acces.log päivittyy, kuvakaappaus on siis otettu sieltä komennolla ´sudo cat /var/log/apache2/other_vhosts_access.log | tail -n 20`
+Access log ei päivitynyt apachessa jostain syystä, mutta other_vhost_acces.log päivittyy, kuvakaappaus on siis otettu sieltä komennolla `sudo cat /var/log/apache2/other_vhosts_access.log | tail -n 20` 
 
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/46c3cf25-9b0a-4472-a877-f3b7690c5471" />
 
+En osannut itse selittää lokirivejä, joten ChatGpt auttoi käytetty prompt: Analysoi lokirivit ja selitä mitä ne tarkoittavat: (copy paste lokirivit) 
+
+<img width="412" alt="image" src="https://github.com/user-attachments/assets/d6b57862-10f4-4e44-8744-7cd34edc850c" />
+
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/ac9a30bd-31dc-46ac-afb2-59debb03f3be" />
 
 
 
