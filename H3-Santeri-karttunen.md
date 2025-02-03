@@ -20,11 +20,17 @@ Apache2 on asennettuna ja ensimmäinen sivu konfiguroitu oppitunnintunnin aikana
 ### x) Lue ja tiivistä (Muutama ranskalainen viiva kustakin artikkelista riittää. Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
 
 Asenna Apache, jos sitä ei ole vielä asennettu.
+
 Luo uusi VirtualHost-konfiguraatiotiedosto hakemistoon /etc/apache2/sites-available/.
+
 Määritä konfiguraatiossa ServerName ja DocumentRoot.
+
 Luo sivuston juurihakemisto, esimerkiksi /var/www/mysite, ja lisää sinne sisältöä.
+
 Ota uusi sivusto käyttöön komennolla a2ensite mysite.conf.
+
 Käynnistä Apache uudelleen komennolla systemctl reload apache2.
+
 Tarkista selaimesta http://localhost, näkyykö sivu.
 
 
