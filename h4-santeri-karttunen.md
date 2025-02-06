@@ -131,8 +131,71 @@ Nyt sivu näyttää tältä
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/7b51a856-e77c-4838-ae13-465b19421093" />
 
+Ja nytkun palvelimella oli tehty kaikenlaista reboottasin järjestelmän komennolla `sudo systemctl reboot`
 
-## d) Vapaaehtoinen: Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host. 
+Tämän jälkeen pidin tauon, tauko alkoi 12:23 
+
+
+## d) Vapaaehtoinen: Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host. 12:40 
+Aloitin tekemällä conf tiedoston verkkosivun nimellä seuraavilla komennoilla.
+
+`sudoedit /etc/apache2/sites-available/santerikarttunen.fi.conf`
+(teki tiedoston johon pääsin kirjoittamaan)
+
+`cat /etc/apache2/sites-available/santerikarttunen.fi.conf`
+(Tarkistin terminaalissa vielä miltä tiedosto näyttää)
+
+<VirtualHost *:80>
+ ServerName santerikarttunen.fi
+ ServerAlias www.santerikarttunen.fi
+ DocumentRoot /home/santeri/publicsites/santerikarttunen.fi
+ <Directory /home/santeir/publicsites/santerikarttunen.fi>
+   Require all granted
+   AllowOverrideAll
+ </Directory>
+</VirtualHost>
+
+tämän jälkeen laitoin sivun päälle `sudo a2ensite santerikarttunen.fi`
+ja otin defaultin pois `sudo dissite 000-default.conf `
+
+Sivusto ei vielä toiminut tässä vaihessa ja sain error koodia joka ilmoitti ettei apache pääse hakemaan sivua. (AH01630: client denied by server configuration: /home/santeri/publicsites/santerikarttunen.fi/) 
+
+Ongelma ratkesi hakemall Apachen asetukset `sudo nano /etc/apache2/apache2.conf` ja muuttamalla kohdan 
+
+<Directory />
+    Options FollowSymLinks
+    AllowOverride None
+    Require all denied -> Require all granted 
+</Directory>
+
+(Jos tämä aiheuttaa tietoturvauhan antakaa palautetta) 
+
+lopputuloksena sivu näkyy näin 
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e4238206-a59d-42d4-be9a-5a8a55c154c9" />
+
+Tässä vielä index.html oikeudet 
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/c156891f-b403-4cc2-a241-74abe13bdb44" />
+
+
+Domain nimi ei näy vielä oikein, luulen että siihen saa vastauksia seuraavalla tunnilla! 
+
+
+Raportti päättyy 13:34 
+
+## Lähteet: 
+https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+https://serverfault.com/questions/1041060/solving-apache-search-permissions-are-missing-on-a-component-of-the-path-issue
+https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+https://github.com/Jesaka/linux-kotitehtavat/blob/main/H3-Santeri-karttunen.md
+
+ChatGPT prompt: Apacheen laitettu sivusto ei lataa chromessa ja antaa seuraavan virhekoodin, mitä voin tehdä? AH00035: access to / denied (filesystem path '/home/santeri/publicsites') because search permissions are missing on a component of the path 
+ChatGPT prompt: Tee näiden verkkosivujen artikkeleista Pilvipalvelimen vuokraus ja asennus, Palvelin suojaan palomuurilla, Kotisivut palvelimelle, Palvelimen ohjelmien päivitys, Tiivistelmä. Muutama ranskalainen viiva riittää.
+
+
+
 
 
 
