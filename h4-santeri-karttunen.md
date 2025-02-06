@@ -50,18 +50,79 @@ Päivitä paketit säännöllisesti komennolla apt update && apt upgrade.
 Tarkista turvapäivitykset ja asenna ne mahdollisimman pian.
 Automaattisten päivitysten käyttöönotto voi lisätä turvallisuutta.
 
-## a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta.
+Tiivistelmä on tehty käyttäen apuna ChatGPT4.0 kielimallia promptilla: Tee näiden verkkosivujen artikkeleista Pilvipalvelimen vuokraus ja asennus, Palvelin suojaan palomuurilla, Kotisivut palvelimelle, Palvelimen ohjelmien päivitys, Tiivistelmä. Muutama ranskalainen viiva riittää.
+
+## a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta. 11:10 
 
 Palvelin vuokrattiin tässä tilanteessa sivustolta https://hub.upcloud.com. Sivustolle oli tehty aikaisemmin käyttäjä tunnin aikana ja tehtävää aloittaessa olin poistanut tunnilla tehdyn palvelimen, jotta voin kuvata raportin alusta alkaen. 
 
-Valitsin valikosta server ja Deploy server
+Valitsin valikosta Servers ja Deploy server
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/35c1b6bb-941d-4fc8-8520-b91c40381b48" />
 
+#### Lyhyesti mitä valintoja tein palvelimelle 
 
-## b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
+Valinnat joita en ole käsitellyt jätin sellaiseksi kun ne olivat standardiasetuksilla. 
 
-## c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä.
+Location FI-HEL1 Finland
+Plan: Halvin mahdollinen 1GB muistia, 10GB storagea ja hintaa 3e per kuukausi
+Operating system: Debian GNU/Linux 12 (Bookworm)
+Network: Public IPv4 Kyllä, Utility network Kyllä, Public IPv6 Kyllä
+Login method: SSH keys (Avaimet on jo generoitu enkä käy sen tekemistä tässä raportissa läpi)
+Hostname: Muutin omaksi 
+
+Tämän jälkeen painoin deploy ja odotin että palvelin käynnistyy
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/1baf46e8-9d95-4eb7-9c43-9474b3fdf260" />
+
+Kun palvelin oli käynnistynyt kirjaudun sisään root käyttäjänä komennolla `ssh root@80.69.175.196` ja vastasin `y` vastaan tulevaan fingerprint kyselyyn
+
+Palvelimeen päästiin siälle joten tämä vaihe ok. 
+
+
+
+
+
+## b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys. 11:36 
+
+Ensimmäiseksi asensin tulimuurin palvelimelle komennolla `sudo apt-get install ufw`, tämän jälkeen tein `sudo ufw allow 22/tcp`jotta pääsemme ssh yhteydellä sisälle ja `sudo ufw enable` jolla tulimuuri menee päälle, `exit` ja uudelleen yhdistäminen, jotta näin pääseväni sisään vielä `ssh root@80.69.175.196`
+
+<img width="299" alt="image" src="https://github.com/user-attachments/assets/60ece9d2-9354-4e76-a4ec-e19bd296ce56" />
+
+### Oman käyttäjän luominen, ja rootin poistaminen 
+
+Annoin palvelimella komennot `sudo adduser santeri` ja tein käyttäjälle salasanan ja asetukset.
+Annoin komennon `sudo adduser santeri sudo` jolla lisäsin uuden käyttäjän sudo ryhmään.
+
+Seuraavaksi kopioin ssh avaimet rootin kansiosta santeri käyttäjälle, jotta pääsemme sisään palvelimelle myös santeri käyttäjällä `cp -n -r /root/.ssh /home/santeri/` ja tarkistin vielä että avaimet ovat olemassa. (Tässä vaiheessa myös testasin santeri käyttäjää pääsenkö sisälle ja toimiihan sudo komento) 
+
+### HUOMIOHUOMI 11:48 
+
+Tässä vaiheessa olin unohtanut muuttaa oikeudet kopioituun ssh kansioon santeri käyttäjälle (.ssh kansion omisti vielä root eikä santeri), joten kirjautumienn epäonnistui syystä (publickey denied). 
+
+Kirjauduin takaisin root käyttäjälle ja korjasin tilanteen näin: 
+
+<img width="555" alt="image" src="https://github.com/user-attachments/assets/8069a8ac-8009-4c01-ab76-753390d1023a" />
+
+Vika korjattu 11:53 
+
+Uusi yritys näytti paremmalta ja kirjautuminen onnistui, testaisin samalla sudo komennon `sudo echo moikka` joka meni läpi, jolloin käyttäjä löytyy myös sudo ryhmästä ja sudo toimii. 
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/acd2c0f8-e675-49c9-82a2-ec639d7b8d13" />.
+
+Root käyttäjän lukitseminen ja ssh-avainten poistaminen tehtiin kommennoilla `sudo usermod --lock root` (Lukitsee rootin kirjautumisen) ja `sudo rm /root/.ssh -r` (Poistaa rootin ssh avaimen). Tämän jälkeen kokeilin pääseekö roottina sisään.
+
+lopputuloksena rootilla ei enää päässyt sisään palvelimelle.
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/e0d91f2c-6786-441e-ac0a-b082514a13eb" />
+
+Kun root oli lukittu ulos palvelimelta ajoin komennot `sudo apt-get update` ja `sudo apt-get upgrade`
+
+viimeisenä valmistelin webbipalvelimen asennusta varten palomuuriin portin 80 auki komennolla `sudo ufw allow 80/tcp`
+
+
+## c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. 12:07 
+
 
 ## d) Vapaaehtoinen: Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host. 
 
