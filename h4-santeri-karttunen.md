@@ -61,8 +61,7 @@ Valitsin valikosta Servers ja Deploy server
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/35c1b6bb-941d-4fc8-8520-b91c40381b48" />
 
 #### Lyhyesti mitä valintoja tein palvelimelle 
-
-Valinnat joita en ole käsitellyt jätin sellaiseksi kun ne olivat standardiasetuksilla. 
+(Valinnat joita en ole käsitellyt jätin sellaiseksi kun ne olivat standardiasetuksilla.)
 
 Location: FI-HEL1 Finland
 
@@ -75,6 +74,7 @@ Network: Public IPv4 Kyllä, Utility network Kyllä, Public IPv6 Kyllä
 Login method: SSH keys (Avaimet on jo generoitu enkä käy sen tekemistä tässä raportissa läpi)
 
 Hostname: Muutin omaksi 
+
 
 
 Tämän jälkeen painoin deploy ja odotin että palvelin käynnistyy
