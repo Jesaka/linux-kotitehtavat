@@ -151,15 +151,8 @@ Aloitin tekemällä conf tiedoston verkkosivun nimellä seuraavilla komennoilla.
 `cat /etc/apache2/sites-available/santerikarttunen.fi.conf`
 (Tarkistin terminaalissa vielä miltä tiedosto näyttää)
 
-<VirtualHost *:80>
- ServerName santerikarttunen.fi
- ServerAlias www.santerikarttunen.fi
- DocumentRoot /home/santeri/publicsites/santerikarttunen.fi
- <Directory /home/santeir/publicsites/santerikarttunen.fi>
-   Require all granted
-   AllowOverrideAll
- </Directory>
-</VirtualHost>
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/274f29f1-35c3-4f06-89e1-cd183c30b37b" />
+
 
 tämän jälkeen laitoin sivun päälle `sudo a2ensite santerikarttunen.fi`
 ja otin defaultin pois `sudo dissite 000-default.conf `
@@ -169,9 +162,13 @@ Sivusto ei vielä toiminut tässä vaihessa ja sain error koodia joka ilmoitti e
 Ongelma ratkesi hakemall Apachen asetukset `sudo nano /etc/apache2/apache2.conf` ja muuttamalla kohdan 
 
 <Directory />
-    Options FollowSymLinks
-    AllowOverride None
-    Require all denied -> Require all granted 
+
+   Options FollowSymLinks
+    
+   AllowOverride None
+    
+   Require all denied -> Require all granted 
+    
 </Directory>
 
 (Jos tämä aiheuttaa tietoturvauhan antakaa palautetta) 
