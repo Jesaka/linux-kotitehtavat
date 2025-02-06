@@ -123,6 +123,14 @@ viimeisenä valmistelin webbipalvelimen asennusta varten palomuuriin portin 80 a
 
 ## c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. 12:07 
 
+Aloitin asentamalla apchen webbipalvelimeen komennolla `sudo apt-get -y install apache2`
+
+Tämän jälkeen korvasin standardina olevan sivun omalla sivulla, jolla lukee vain default `echo "Default"|sudo tee /var/www/html/index.html`
+
+Nyt sivu näyttää tältä 
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/7b51a856-e77c-4838-ae13-465b19421093" />
+
 
 ## d) Vapaaehtoinen: Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host. 
 
