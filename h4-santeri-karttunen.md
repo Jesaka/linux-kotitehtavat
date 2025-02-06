@@ -2,6 +2,7 @@
 
 ### Johdanto ja lähtötilanne
 Tämän raportin tavoitteena on suorittaa virtuaalipalvelimen vuokraaminen Upcloudista ja päivittää oma pelkistetty HTML sivu julkiseen internettiin
+
 Tietokone: HP EliteBook 830 G6
 
 Käyttöjärjestelmä: Windows 11 pro
