@@ -64,12 +64,18 @@ Valitsin valikosta Servers ja Deploy server
 
 Valinnat joita en ole käsitellyt jätin sellaiseksi kun ne olivat standardiasetuksilla. 
 
-Location FI-HEL1 Finland
+Location: FI-HEL1 Finland
+
 Plan: Halvin mahdollinen 1GB muistia, 10GB storagea ja hintaa 3e per kuukausi
+
 Operating system: Debian GNU/Linux 12 (Bookworm)
+
 Network: Public IPv4 Kyllä, Utility network Kyllä, Public IPv6 Kyllä
+
 Login method: SSH keys (Avaimet on jo generoitu enkä käy sen tekemistä tässä raportissa läpi)
+
 Hostname: Muutin omaksi 
+
 
 Tämän jälkeen painoin deploy ja odotin että palvelin käynnistyy
 
