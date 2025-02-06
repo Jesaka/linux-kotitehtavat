@@ -190,12 +190,17 @@ Raportti päättyy 13:34
 
 ## Lähteet: 
 https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+
 https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+
 https://serverfault.com/questions/1041060/solving-apache-search-permissions-are-missing-on-a-component-of-the-path-issue
+
 https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+
 https://github.com/Jesaka/linux-kotitehtavat/blob/main/H3-Santeri-karttunen.md
 
 ChatGPT prompt: Apacheen laitettu sivusto ei lataa chromessa ja antaa seuraavan virhekoodin, mitä voin tehdä? AH00035: access to / denied (filesystem path '/home/santeri/publicsites') because search permissions are missing on a component of the path 
+
 ChatGPT prompt: Tee näiden verkkosivujen artikkeleista Pilvipalvelimen vuokraus ja asennus, Palvelin suojaan palomuurilla, Kotisivut palvelimelle, Palvelimen ohjelmien päivitys, Tiivistelmä. Muutama ranskalainen viiva riittää.
 
 
