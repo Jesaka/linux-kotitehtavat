@@ -106,7 +106,7 @@ Seuraavaksi kopioin ssh avaimet rootin kansiosta santeri käyttäjälle, jotta p
 
 Tässä vaiheessa olin unohtanut muuttaa oikeudet kopioituun ssh kansioon santeri käyttäjälle (.ssh kansion omisti vielä root eikä santeri), joten kirjautumienn epäonnistui syystä (publickey denied). 
 
-Kirjauduin takaisin root käyttäjälle ja korjasin tilanteen näin: 
+Kirjauduin takaisin root käyttäjälle ja korjasin tilanteen näin `chwon`komennolla jolla annoin käyttäjälle santeri kansion oikeudet
 
 <img width="555" alt="image" src="https://github.com/user-attachments/assets/8069a8ac-8009-4c01-ab76-753390d1023a" />
 
