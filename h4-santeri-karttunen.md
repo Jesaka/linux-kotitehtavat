@@ -1,7 +1,7 @@
 # h4 Maailma kuulee 6.2.2025 11:00 
 
-Johdanto ja lähtötilanne
-
+### Johdanto ja lähtötilanne
+Tämän raportin tavoitteena on suorittaa virtuaalipalvelimen vuokraaminen Upcloudista ja päivittää oma pelkistetty HTML sivu julkiseen internettiin
 Tietokone: HP EliteBook 830 G6
 
 Käyttöjärjestelmä: Windows 11 pro
@@ -51,6 +51,13 @@ Tarkista turvapäivitykset ja asenna ne mahdollisimman pian.
 Automaattisten päivitysten käyttöönotto voi lisätä turvallisuutta.
 
 ## a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta.
+
+Palvelin vuokrattiin tässä tilanteessa sivustolta https://hub.upcloud.com. Sivustolle oli tehty aikaisemmin käyttäjä tunnin aikana ja tehtävää aloittaessa olin poistanut tunnilla tehdyn palvelimen, jotta voin kuvata raportin alusta alkaen. 
+
+Valitsin valikosta server ja Deploy server
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/35c1b6bb-941d-4fc8-8520-b91c40381b48" />
+
 
 ## b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
 
