@@ -158,8 +158,8 @@ Aloitin tekemällä conf tiedoston verkkosivun nimellä seuraavilla komennoilla.
 tämän jälkeen laitoin sivun päälle `sudo a2ensite santerikarttunen.fi`
 ja otin defaultin pois `sudo dissite 000-default.conf `
 
-# TÄSSÄ KOHTAA ON TEHTY VAARALINEN TOIMENPIDE ÄLÄ TOISTA VIRHETTÄ ÄLÄ MUUTA ASETUKSIA KUTEN ALLA ON MUUTETTU (Päivitys 11.2.2025)
-## VIRHE POISTUI TARKASTAMALLA SITES-AVAILABLE CONFIGISTA KIRJOITUSVIRHE POIS 
+# TÄSSÄ KOHTAA ON TEHTY VAARALINEN TOIMENPIDE ÄLÄ TOISTA VIRHETTÄ ÄLÄ MUUTA ASETUKSIA KUTEN ALLA ON MUUTETTU (Päivitys 11.2.2025) VIRHE POISTUI TARKASTAMALLA SITES-AVAILABLE CONFIGISTA KIRJOITUSVIRHE POIS 
+
 Sivusto ei vielä toiminut tässä vaihessa ja sain error koodia joka ilmoitti ettei apache pääse hakemaan sivua. (AH01630: client denied by server configuration: /home/santeri/publicsites/santerikarttunen.fi/) 
 
 Ongelma ratkesi hakemall Apachen asetukset `sudo nano /etc/apache2/apache2.conf` ja muuttamalla kohdan 
