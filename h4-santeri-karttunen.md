@@ -1,4 +1,4 @@
-# h4 Maailma kuulee 6.2.2025 11:00 
+# h4 Maailma kuulee 6.2.2025 11:00 Päivitetty 11.2.2025 18:51
 
 ### Johdanto ja lähtötilanne
 Tämän raportin tavoitteena on suorittaa virtuaalipalvelimen vuokraaminen Upcloudista ja päivittää oma pelkistetty HTML sivu julkiseen internettiin
@@ -158,6 +158,8 @@ Aloitin tekemällä conf tiedoston verkkosivun nimellä seuraavilla komennoilla.
 tämän jälkeen laitoin sivun päälle `sudo a2ensite santerikarttunen.fi`
 ja otin defaultin pois `sudo dissite 000-default.conf `
 
+# TÄSSÄ KOHTAA ON TEHTY VAARALINEN TOIMENPIDE ÄLÄ TOISTA VIRHETTÄ ÄLÄ MUUTA ASETUKSIA KUTEN ALLA ON MUUTETTU (Päivitys 11.2.2025)
+## VIRHE POISTUI TARKASTAMALLA SITES-AVAILABLE CONFIGISTA KIRJOITUSVIRHE POIS 
 Sivusto ei vielä toiminut tässä vaihessa ja sain error koodia joka ilmoitti ettei apache pääse hakemaan sivua. (AH01630: client denied by server configuration: /home/santeri/publicsites/santerikarttunen.fi/) 
 
 Ongelma ratkesi hakemall Apachen asetukset `sudo nano /etc/apache2/apache2.conf` ja muuttamalla kohdan 
@@ -174,6 +176,7 @@ Ongelma ratkesi hakemall Apachen asetukset `sudo nano /etc/apache2/apache2.conf`
 
 (Jos tämä aiheuttaa tietoturvauhan antakaa palautetta) 
 
+# VAARALLINEN TOIMEPIDE PÄÄTTYY (Päivitetty osio päättyy)
 lopputuloksena sivu näkyy näin 
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/e4238206-a59d-42d4-be9a-5a8a55c154c9" />
