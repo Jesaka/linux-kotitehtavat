@@ -17,11 +17,15 @@ Nimen DNS asetukset olivat muistaakseni ainoat mihin tein muutoksia.
 
 Valmiina olevat asetukset on muutettu nykyiseen muotoon osoittamaan palvelimeni IP-osoitetta seuraavalla tavalla (@ ja www)
 
+
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/e422b4b9-4896-4280-8da1-7969592315c8" />
+
 
 Sekä google verificationia varten lisäsin A-TXT recordin, Saan vielä Google Search consolesta ilmoituksia "kaikkia sivuja ei voida verifioida" joten kun pääsen sukeltamaan sivuston hakukoneoptimointiin, osaan sanoa tästä lisää.
 
+
 <img width="714" alt="image" src="https://github.com/user-attachments/assets/a81b421d-a5fb-47ae-9450-36f15e71e917" />
+
 
 
 Tämän jälkeen loin Webstormissa uuden projektin, jonne koodasin ensimmäisen julkaistun verkkosivuni: https://santerikarttunen.com/
@@ -30,6 +34,7 @@ Sivuston siirtäminen Debianin virtuaalikoneeseen tein Virtual Boxin asetuksista
  ### b) Based. Laita Name Based Virtual Host näkymään uudessa nimessäsi. Kotisvuja pitää pystyä muokkaamaan ilman pääkäyttäjän oikeuksia.
 
 Kuvassa näkyy palvelimen sisältä oikeudet, jotka tiedostoilla on, Santeri käyttäjä pystyy muokkaamaan tiedostoja.
+
 
 <img width="378" alt="image" src="https://github.com/user-attachments/assets/5037888c-df7a-46e0-8922-1d87afdd6c72" />
 
@@ -41,25 +46,33 @@ Tein kopiot tiedostosta index.html
 `cp index.html trivia.html`
 
  ja kirjoitin koodiin rivit, jotka luovat headeriin uudet painikkeet kuten home painike on luotu
+ 
 
  <img width="441" alt="image" src="https://github.com/user-attachments/assets/2330f2c5-8b1e-48d2-b99f-2322184c573d" />
+ 
 
  Ja muut sivut näyttävät tältä ja niiltä pääsee takaisin vain kotisivulle. (Alisivut on poistettu sivulta ja ne on tehty vain demostroidakseen tämän tehtävän tekeminen)
+ 
 
  <img width="856" alt="image" src="https://github.com/user-attachments/assets/c4dd31d3-1b0d-44dd-b5c8-1db5927943be" />
+ 
 
 ### d) Alidomain. Tee kaksi uutta alidomainia, jotka osoittava omaan koneeseesi. Esimerkiksi palvelu on example.com -> linuxkurssi.example.com. Alidomainit ovat tyypillisesti ilmaisia, kun sinulla on päädomain (example.com). Tässä tehtävässä riittää, että alidomainit avaavat saman sivun kuin päädomain. (Vapaaehtoinen bonus: Tee toinen alidomain A-tietueella ja toinen CNAME-tietueella. Vapaaehtoinen bonus: tee alidomainiin oma erillinen name based virtual host.) 10:37 
 
 Koska tehtävässä riittää että alidomain osoittaa samalle sivulle kävin tekemässä seuraavat CNAME tietueet Namecheapin domain asetuksiin.
+
 
 <img width="734" alt="image" src="https://github.com/user-attachments/assets/ad95b89b-7881-459c-a1c4-49df28c2edf3" />
 
 
 Ja tässä miltä lopputulos näytti. Jos olisin halunnut tehdä kokonaan uudensivun samaan domainiin olisin voinut luoda uuden sivun ja Name Based Hostin kuten aikaisemmissa tehtävissä on kuvattu. (HUOMIO) Tässä tapauksessa sivusto näyttää ei turvallinen, koska alidomaineille ei ole haettu sertifikaattia jolloin sivu näkyy HTTP, eikä HTTPS)
 
+
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/66e440bd-a418-4600-9632-3d9b1c41a11d" />
 
+
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/47a2e9dc-d68f-4432-a2e7-d54132176a6d" />
+
 
 ### e) Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet: 10:58
 
@@ -68,15 +81,21 @@ Kun yritin ajaa komentoa host omalle sivulleni linux antoi ilmoituksen command n
 
 Tämän jälkeen ajoin komennot `dig` ja `host` omalle sivulleni santerikarttunen.com
 
+
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/393a5135-f1c9-44f3-ac4e-0bdcd7fea42a" />
+
 
 Toisena sivuna käytin sivua ossikallio.com
 
+
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/0a2a355b-61f1-4deb-a7f0-28998a163a36" />
+
 
 Ison palvelun esimerkkinä käytin instagram.com
 
+
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/2ac2ad0c-bb93-4f1d-9422-1d58ad2fc10e" />
+
 
 En osaa itse analysoida tullutta dataa, mutta ChatGPT analysoi tulokset seuraavasti (Käytetty prompt, Tehävänanto ja kaikkien kolmen sivun HOST ja DIG komentojen tulokset + Tee tästä kysymykseen vastaava tiivistelmä) Omat komentit ja Uusien termien selitykset on merkitty (OMA KOMENTTI ALKAA/PÄÄTTYY)
 
@@ -117,7 +136,9 @@ instagram.com käyttää Proofpointin tarjoamaa suodatusta (mxa-00082601.gslb.pp
 
 ## Lähteet 
 https://www.osoite.fi/lisapalvelut/
+
 https://fi.wikipedia.org/wiki/Time_to_Live
+
 https://terokarvinen.com/linux-palvelimet/
 
 
