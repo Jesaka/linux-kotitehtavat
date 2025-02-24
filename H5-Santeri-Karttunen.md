@@ -90,7 +90,7 @@ ossikallio.com palautti kolme eri IP-osoitetta, mikä viittaa kuormantasaukseen 
 
 Antaa enemmän teknistä tietoa, kuten kyselyn keston (Query time) ja DNS-palvelimen vastauksen.
 santerikarttunen.com vastasi IP-osoitteella 80.69.175.196 (täsmää host-tuloksen kanssa).
-ossikallio.com palautti samat kolme IP-osoitetta, mutta dig kertoi myös TTL-arvon (OMA KOMMENTTI ALKAA " Time to Live (TTL) on termi, jota usein käytetään kuvaamaan jonkin verkon yli lähetettävän tai muun datan elinaikaa. TTL voi kuvata konkreettista kellolla mitattavaa aikaa tai jäljellä olevien reititinhyppyjen lukumäärää. Kun aika on kulunut umpeen, datapaketti pudotetaan eli tuhotaan." https://fi.wikipedia.org/wiki/Time_to_Live) (3593 sekuntia, eli noin tunti).
+ossikallio.com palautti samat kolme IP-osoitetta, mutta dig kertoi myös TTL-arvon (OMA KOMMENTTI ALKAA " Time to Live (TTL) on termi, jota usein käytetään kuvaamaan jonkin verkon yli lähetettävän tai muun datan elinaikaa. TTL voi kuvata konkreettista kellolla mitattavaa aikaa tai jäljellä olevien reititinhyppyjen lukumäärää. Kun aika on kulunut umpeen, datapaketti pudotetaan eli tuhotaan." https://fi.wikipedia.org/wiki/Time_to_Live OMA KOMMENTTI PÄÄTTYY) (3593 sekuntia, eli noin tunti).
 instagram.com palautti IPv4- ja IPv6-osoitteet sekä MX-tietueet, jotka liittyvät sähköpostipalvelimiin.
 2. Huomionarvoiset seikat
 🔸 Palvelinongelmat (communications error to 10.0.2.3#53: timed out)
