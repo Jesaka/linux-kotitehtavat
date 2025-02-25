@@ -85,7 +85,7 @@ Tämän jälkeen ajoin komennot `dig` ja `host` omalle sivulleni santerikarttune
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/393a5135-f1c9-44f3-ac4e-0bdcd7fea42a" />
 
 
-Toisena sivuna käytin sivua ossikallio.com
+Toisena sivuna käytin sivua https://ossikallio.com (muokattu 25.2 klo 13:57)
 
 
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/0a2a355b-61f1-4deb-a7f0-28998a163a36" />
