@@ -96,7 +96,7 @@ Ngrepin teoreettinen tulos luotu ChatGPT:llä
 - Tämä tarkoittaa, että kuka tahansa verkossa voi kaapata nämä tiedot esim. avoimessa WiFi-verkossa.
 - Man-in-the-Middle (MitM) -hyökkäykset ovat mahdollisia, koska tiedot eivät ole salattuja.
 
-# Tehtävän tekeminen päättyy 18:10 
+# Tehtävän tekeminen päättyy 18:35 
 
 Lähteet: 
 https://certbot.eff.org/instructions?ws=apache&os=pip
