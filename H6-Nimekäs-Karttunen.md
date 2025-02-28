@@ -38,6 +38,8 @@ SSLCertificateKeyFile /path/to/privkey.pem – Määrittää yksityisen avaimen 
 
 Näiden asetusten jälkeen palvelin tukee HTTPS-yhteyksiä määritetyllä varmenteella.
 
+https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
+
 ## a) Let's. Hanki ja asenna palvelimellesi ilmainen TLS-sertifikaatti Let's Encryptilta. Osoita, että se toimii. 
 
 Verkkosivulle on hankittu jo aikaisemmin ennen tehtävää TLS sertifikaatti Let´s Encryptilta, linkin takaa pääsee katsomaan Certbotin ohjeista, kuinka se toimii. https://certbot.eff.org/instructions?ws=apache&os=pip
@@ -48,7 +50,18 @@ Kuvassa varmenteen tiedot
 
 Koska huomasin varmenteen vanhenevan hyvinkin nopeasti tarkistin certbotin uusivan varmenteen automaattisesti
 
-Komennolla `systemctl list-timers | grep certbot` Tarkistin että certbot on asettanut ajastimen, joka tarkistaa onko varmenne vanhentumassa
+Komennolla `systemctl list-timers | grep certbot` Tarkistin että certbot on asettanut ajastimen, joka tarkistaa onko varmenne vanhentumassa, Certbot oli asettanut ajastimen.
+
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/eca930e4-f6b3-44f5-97cd-1ea47503d417" />
+
+Ja kokeilin vielä simuloitua uusimista`sudo certbot renew --dry-run
+`, joka onnistui
+
+<img width="407" alt="image" src="https://github.com/user-attachments/assets/51b669ed-62a4-4917-9e79-827ef4b7ad87" />
+
+
+
+
 
 https://santerikarttunen.com/
 
