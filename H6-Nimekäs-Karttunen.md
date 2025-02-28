@@ -19,10 +19,13 @@ https://letsencrypt.org/how-it-works/
 
 ### Lange 2024: Lego: Obtain a Certificate: Using an existing, running web server (vain tämä kappale, ei "Running a script afterward" tai myöhempiä)
 
-- Lego on ACME-asiakasohjelma, jota käytetään Let's Encrypt -varmenteiden hankintaan.
-- Jos käytössä on jo käynnissä oleva verkkopalvelin, Lego voi käyttää "standalone"-tilaa varmenteen hakemiseen.
-- Tämä edellyttää, että verkkopalvelin pysäytetään hetkeksi tai että käytetään DNS- tai verkkopalvelintodennusta (kuten HTTP-01-haastetta).
-- Kun varmenne on hankittu, se voidaan ottaa käyttöön verkkopalvelimessa normaalisti.
+- Web-palvelimen käyttö: Komento lego --email="you@example.com" --domains="example.com" --http run luo sertifikaatit .lego-kansioon.
+
+- DNS-palveluntarjoaja (esim. Gandi): Käytä komentoa GANDI_API_KEY=xxx lego --dns gandi --domains "example.org" run sertifikaatin hankkimiseksi.
+
+- Oman CSR:n käyttö: Komento lego --email="you@example.com" --http --csr="/path/to/csr.pem" run käyttää olemassa olevaa CSR:ää.
+  
+- Olemassa olevan web-palvelimen käyttö: Kirjoita haasteen tiedosto .well-known/acme-challenge-hakemistoon web-palvelimella.
 
 https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
 
@@ -96,7 +99,7 @@ Ngrepin teoreettinen tulos luotu ChatGPT:llä
 - Tämä tarkoittaa, että kuka tahansa verkossa voi kaapata nämä tiedot esim. avoimessa WiFi-verkossa.
 - Man-in-the-Middle (MitM) -hyökkäykset ovat mahdollisia, koska tiedot eivät ole salattuja.
 
-# Tehtävän tekeminen päättyy 18:35 
+# Tehtävän tekeminen päättyy 18:47
 
 Lähteet: 
 https://certbot.eff.org/instructions?ws=apache&os=pip
