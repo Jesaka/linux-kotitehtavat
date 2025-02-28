@@ -102,11 +102,20 @@ Ngrepin teoreettinen tulos luotu ChatGPT:llä
 # Tehtävän tekeminen päättyy 18:47
 
 Lähteet: 
+
 https://certbot.eff.org/instructions?ws=apache&os=pip
-https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
+
+https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-
+server
+
 https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
+
 https://letsencrypt.org/fi/docs/caa/
+
 https://letsencrypt.org/how-it-works/
+
 https://santerikarttunen.com/
+
 https://ssllabs.com/ssltest/analyze.html?d=santerikarttunen.com
+
 https://terokarvinen.com/linux-palvelimet/
