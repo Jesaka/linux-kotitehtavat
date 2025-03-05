@@ -296,5 +296,16 @@ h) tekeminen päättyy 23.1.2025 12:01
 
 ## Raportti valmis 23.1.2025 12:05 
 
+(Päivityst 5.3.2025)
+Lähteet: 
 
+https://terokarvinen.com/2020/command-line-basics-revisited/
+
+https://terokarvinen.com/linux-palvelimet/#h2-komentaja-pingviini
+
+https://www.zdnet.com/article/5-linux-terminal-apps-that-are-better-than-your-default-and-free-to-install/
+
+https://www.makeuseof.com/fun-linux-command-line-programs/
+
+(Päivityst 5.3.2025 päättyy)
 
