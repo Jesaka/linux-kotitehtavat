@@ -97,19 +97,20 @@ Ison palvelun esimerkkinä käytin instagram.com
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/2ac2ad0c-bb93-4f1d-9422-1d58ad2fc10e" />
 
 
-En osaa itse analysoida tullutta dataa, mutta ChatGPT analysoi tulokset seuraavasti (Käytetty prompt, Tehävänanto ja kaikkien kolmen sivun HOST ja DIG komentojen tulokset + Tee tästä kysymykseen vastaava tiivistelmä) Omat komentit ja Uusien termien selitykset on merkitty (OMA KOMENTTI ALKAA/PÄÄTTYY)
+En osaa itse analysoida tullutta dataa, mutta ChatGPT analysoi tulokset seuraavasti (Käytetty prompt, Tehävänanto ja kaikkien kolmen sivun HOST ja DIG komentojen tulokset + Tee tästä kysymykseen vastaava tiivistelmä) Omat komentit ja Uusien termien selitykset on merkitty (KOMENTTI ALKAA/PÄÄTTYY)
 
 1. host- ja dig-tulosten vertailu
 🔹 host-komento:
 
 Näyttää yksinkertaisen vastauksen IP-osoitteista ja mahdollisista sähköpostipalvelimista.
 Esimerkiksi santerikarttunen.com palautti IP-osoitteen 80.69.175.196 sekä viisi sähköpostipalvelinta (MX).
-ossikallio.com palautti kolme eri IP-osoitetta, mikä viittaa kuormantasaukseen (OMA KOMMENTTI ALKAA " Kuormantasaus. Kuormantasaus on tekniikka jolla useampi WWW-palvelin kytketään yhteen vastaamaan optimaalisesta verkkosivujen toiminnasta kovankin rasituksen alaisena. Samalla suorituskyky ja luotettavuus pystytään maksimoimaan kaikissa tilanteissa." Lähde https://www.osoite.fi/lisapalvelut/. OMA KOMMENTTI PÄÄTTYY)
+ossikallio.com palautti kolme eri IP-osoitetta, mikä viittaa kuormantasaukseen
+
 🔹 dig-komento:
 
 Antaa enemmän teknistä tietoa, kuten kyselyn keston (Query time) ja DNS-palvelimen vastauksen.
 santerikarttunen.com vastasi IP-osoitteella 80.69.175.196 (täsmää host-tuloksen kanssa).
-ossikallio.com palautti samat kolme IP-osoitetta, mutta dig kertoi myös TTL-arvon (OMA KOMMENTTI ALKAA " Time to Live (TTL) on termi, jota usein käytetään kuvaamaan jonkin verkon yli lähetettävän tai muun datan elinaikaa. TTL voi kuvata konkreettista kellolla mitattavaa aikaa tai jäljellä olevien reititinhyppyjen lukumäärää. Kun aika on kulunut umpeen, datapaketti pudotetaan eli tuhotaan." https://fi.wikipedia.org/wiki/Time_to_Live OMA KOMMENTTI PÄÄTTYY) (3593 sekuntia, eli noin tunti).
+ossikallio.com palautti samat kolme IP-osoitetta, mutta dig kertoi myös TTL-arvon (KOMMENTTI ALKAA " Time to Live (TTL) on termi, jota usein käytetään kuvaamaan jonkin verkon yli lähetettävän tai muun datan elinaikaa. TTL voi kuvata konkreettista kellolla mitattavaa aikaa tai jäljellä olevien reititinhyppyjen lukumäärää. Kun aika on kulunut umpeen, datapaketti pudotetaan eli tuhotaan." https://fi.wikipedia.org/wiki/Time_to_Live KOMMENTTI PÄÄTTYY) (3593 sekuntia, eli noin tunti).
 instagram.com palautti IPv4- ja IPv6-osoitteet sekä MX-tietueet, jotka liittyvät sähköpostipalvelimiin.
 2. Huomionarvoiset seikat
 🔸 Palvelinongelmat (communications error to 10.0.2.3#53: timed out)
@@ -135,7 +136,6 @@ instagram.com käyttää Proofpointin tarjoamaa suodatusta (mxa-00082601.gslb.pp
 
 
 ## Lähteet 
-https://www.osoite.fi/lisapalvelut/
 
 https://fi.wikipedia.org/wiki/Time_to_Live
 
