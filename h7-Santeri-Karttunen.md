@@ -111,7 +111,7 @@ Etsitkö haasteita? Tähtäätkö huipputulokseen? Juuri sitä varten meillä on
 
 VANHAN LABORATORIOHARJOITUKSEN TEKEMINEN PÄÄTTYY.
 
-
+## Raportin kirjoittaminen päättyy 19:40 
 
 
 
