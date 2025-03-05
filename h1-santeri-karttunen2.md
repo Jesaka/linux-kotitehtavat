@@ -171,10 +171,16 @@ Painoin työpöydältä Debian installer
 
  Lopetusaika 11:29 15.1.2025
 
-
-
-
-
+(Päivitys 5.3.2025) 
+## Lähteet 
+https://askubuntu.com/questions/308937/cannot-install-ubuntu-in-virtualbox-due-to-this-kernel-requires-an-x86-64-cpu
+https://www.debian.org/CD/live/
+https://www.gnu.org/philosophy/free-sw.html
+https://terokarvinen.com/2021/install-debian-on-virtualbox/ 
+https://terokarvinen.com/linux-palvelimet/#h1-oma-linux
+https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+(Päivitys 5.3.2025 Päättyy) 
 
 
 
