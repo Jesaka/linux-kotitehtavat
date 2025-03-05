@@ -19,7 +19,7 @@ Asennettu fyysinen muisti (RAM) 8,00 Gt
 
 ## a) Kirjoita ja aja "Hei maailma" kolmella kielellä.
 
-Päätin kirjoittaa ohjelmat kielillä bash, python ja perl. 
+Päätin kirjoittaa ohjelmat kielillä bash, python ja perl. (Perl Ohjelman kirjoittamiseen on käytetty ChatGPT4.0 kielimallia prompt: Tehtävänanto, anna vaihtoehtoja kielistä joita voi ajaa suoraan linuxin terminaalissa. (Vaihtoehdot tuotettu chatgpt:llä). Kirjoita Perlillä.) 
 
 
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/e38232a1-0155-43c5-ac8a-a9e8dc5096a8" />
@@ -51,7 +51,9 @@ Ja nyt ohjelmia voi ajaa vaikka omasta kotihakemistosa käsin
 
 
 
-b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen. Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. Lähdeviite tulee olla jokaisessa raportissa tai sivussa, jossa lähdettä on käytetty. Kaikki tehtävät perustuvat tämän sivun tehtävänantoihin, joten ainakin tämä viite on syytä löytyä. (Tästä alakohdasta ei tarvitse kirjoittaa vaiheittaista raporttia)
+## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen. Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. Lähdeviite tulee olla jokaisessa raportissa tai sivussa, jossa lähdettä on käytetty. Kaikki tehtävät perustuvat tämän sivun tehtävänantoihin, joten ainakin tämä viite on syytä löytyä. (Tästä alakohdasta ei tarvitse kirjoittaa vaiheittaista raporttia)
+
+Lähdeviitteet tarkistettu 5.3.2025
 
 ## c) Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
