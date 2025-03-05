@@ -101,24 +101,24 @@ Tässä esimerkki Naken sivuista
 <img width="255" alt="image" src="https://github.com/user-attachments/assets/065ebd5d-b483-4aaf-b4df-87e1ad79629c" />
 
 
+## WhoWhere - Tee kaikkien käyttäjien käyttöön komento, joka tulostaa Ninjamaisen tervehdyksen “Hello Ninja”, koneen IP-osoitteen ja komentoa ajavan käyttäjän nimen.
+Etsitkö haasteita? Tähtäätkö huipputulokseen? Juuri sitä varten meillä on tarjolla:
+
+
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/1ee7d44e-2bfc-4e34-9dde-4dc704a89c5e" />
+
+VANHAN LABORATORIOHARJOITUKSEN TEKEMINEN PÄÄTTYY.
 
 
 
 
-https://terokarvinen.com/2023/linux-palvelimet-2023-arvioitava-laboratorioharjoitus/?fromSearch=laboratorioharjoitus
-h) Djangon lahjat
-Asenna omalle käyttäjällesi Django 4 kehitysympäristö
-Tee tietokanta lahjoitetuista esineistä, jossa on nämä ominaisuudet
-Kirjautuminen salasanalla
-Tietokannan muokkaus wepissä Djangon omalla ylläpitoliittymällä (Django admin)
-Käyttäjä Erkille, jossa ei ole ylläpito-oikeuksia
-Taulu Donations, jossa jokaisella tietueella on nimi (name)
-Jos haluat, voit lisäksi bonuksena laittaa mukaan kentän hinta (price)
-e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo ja asennuksen mukana tulevat. Virtuaalikoneella ei saa olla luottamuksellisia tiedostoja, koska opettaja saattaa tarkastella sitä. (Tästä d-osioista ei tarvitse kirjoittaa raporttia. Tavalliseen käyttöjärjestelmän asennuksen yhteydessä tulevat ohjelmat saavat olla mukana, esim. graafinen työpöytä tulee yleensä asennuksen mukana.)
-Jos haluat tehdä vapaaehtoisen tehtävän h8, sen määräaika on sama kuin h7.
+
+
+
+
 
 ## Lähteet: 
 
-https://terokarvinen.com/2023/linux-palvelimet-2023-arvioitava-laboratorioharjoitus/?fromSearch=laboratorioharjoitus
+https://terokarvinen.com/2017/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-4-tiistai-alkusyksy-2017-5-op/
 https://www.geeksforgeeks.org/hello-world-program-in-perl/
 https://terokarvinen.com/linux-palvelimet/
